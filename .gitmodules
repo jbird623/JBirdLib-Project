@@ -1,0 +1,4 @@
+[submodule "JBirdLib2"]
+	path = JBirdLib2
+	url = https://github.com/jbird623/JBirdLib2.git
+	branch = origin/master
