@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be1e0a7ccd56ab4ab73c487ef73530a, type: 3}
+  m_Name: Loot Table
+  m_EditorClassIdentifier: 
+  entries:
+  - lootPrefab: Experience Orbs
+    chance:
+      chanceType: 0
+      minRoll: 3
+      maxRoll: 5
+      numPerRoll: 2
+      boundsAsRange: 1
+      extraRollChance: 0.1
+      rollIndependently: 1
+      weight: 4
+      allowMultiples: 0
+      allTagList: banana,orange
+      skipIfPartialTags: 0
+      anyTagList: 
+      skipIfNoTags: 0
+  - lootPrefab: Rare Sword
+    chance:
+      chanceType: 2
+      minRoll: 0
+      maxRoll: 1
+      numPerRoll: 1
+      boundsAsRange: 0
+      extraRollChance: 0.01
+      rollIndependently: 0
+      weight: 3
+      allowMultiples: 0
+      allTagList: player_kill
+      skipIfPartialTags: 0
+      anyTagList: 
+      skipIfNoTags: 0
+  - lootPrefab: Bananas
+    chance:
+      chanceType: 1
+      minRoll: 1
+      maxRoll: 3
+      numPerRoll: 0
+      boundsAsRange: 1
+      extraRollChance: 0
+      rollIndependently: 0
+      weight: 4
+      allowMultiples: 0
+      allTagList: 
+      skipIfPartialTags: 1
+      anyTagList: 
+      skipIfNoTags: 0
+  - lootPrefab: Souls
+    chance:
+      chanceType: 5
+      minRoll: 2
+      maxRoll: 5
+      numPerRoll: 0
+      boundsAsRange: 1
+      extraRollChance: 0
+      rollIndependently: 0
+      weight: 15
+      allowMultiples: 1
+      allTagList: 
+      skipIfPartialTags: 1
+      anyTagList: reaper,soul_catcher
+      skipIfNoTags: 1
+  - lootPrefab: Rare Soul
+    chance:
+      chanceType: 2147483647
+      minRoll: 2
+      maxRoll: 5
+      numPerRoll: 1
+      boundsAsRange: 0
+      extraRollChance: 0.1
+      rollIndependently: 1
+      weight: 1
+      allowMultiples: 0
+      allTagList: player_kill
+      skipIfPartialTags: 1
+      anyTagList: reaper,soul_catcher
+      skipIfNoTags: 1
